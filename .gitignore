@@ -1,0 +1,13 @@
+# Go build artifacts
+/keyrot
+*.exe
+*.test
+*.out
+
+# Demo keystore: contains private key material. Never commit it.
+data/keystore.json
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
